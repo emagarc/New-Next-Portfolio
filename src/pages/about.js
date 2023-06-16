@@ -1,5 +1,6 @@
 import React, {useEffect, useRef} from 'react'
 import Head from 'next/head'
+import Skills from '@/components/Skills'
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Image from 'next/image'
@@ -46,7 +47,7 @@ const about = () => {
                     <div className='col-span-3 flex flex-col items-start justify-start'>
                         <h2 
                             className='
-                                mb-4 text-lg font-bold 
+                                mb-4 text-lg font-bold mr-5
                                 uppercase text-dark/75
                             '
                         >
@@ -107,6 +108,7 @@ const about = () => {
                         </div>
                     </div>
                 </div>
+                <Skills />
             </Layout>
         </main>
     </>
