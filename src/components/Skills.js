@@ -8,11 +8,11 @@ const Skill = ({name, x, y}) => {
       className='
         flex items-center justify-center rounded-full cursor-pointer py-3
         font-semibold bg-dark text-light shadow-dark absolute px-6
+        dark:text-dark dark:bg-light
       '
       whileHover={{scale:1.05}}
       initial={{x:0, y:0}}
-      whileInView={{ x:x, y:y }}
-      transition={{duration:1.5}}
+      whileInView={{ x:x, y:y, transition: {duration:1.5}}}
       viewport={{once:true}} 
     >
       {name}
@@ -24,19 +24,21 @@ const Skill = ({name, x, y}) => {
 const Skills = () => {
   return (
     <>
-      <h2 className='font-bold text-7xl mt-64 w-full text-center'>
+      <h2 className='font-bold text-7xl mt-64 w-full text-center mb-10'>
         Skills
       </h2>
       <div 
         className='
           w-full h-screen relative flex items-center 
           justify-center rounded-full bg-circularLight
+          dark:bg-circularDark
         '
       >
         <motion.div 
           className='
             flex items-center justify-center rounded-full cursor-pointer
-            font-semibold bg-dark text-light p-8 shadow-dark  
+            font-semibold bg-dark text-light p-8 shadow-dark 
+            dark:text-dark dark:bg-light
           '
           whileHover={{scale:1.05}}
         >
