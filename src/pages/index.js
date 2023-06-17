@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
 import HireMe from '@/components/HireMe';
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
+import developer1 from "../../public/images/profile/developer1.png";
 
 export default function Home() {
   return (
@@ -18,9 +19,9 @@ export default function Home() {
       <main className="flex items-center text-dark w-full min-h-screen">
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full'>
-            <div className='w-1/2'>
+            <div className='w-[480px] ml-4'>
               <Image 
-                src={developing}
+                src={developer1}
                 alt="EG"
                 className='w-full h-auto'
               />
