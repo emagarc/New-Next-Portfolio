@@ -24,6 +24,10 @@ export default function Home() {
                 src={developer1}
                 alt="EG"
                 className='w-full h-auto'
+                priority
+                sizes='(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vh,
+                33vw'
               />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>

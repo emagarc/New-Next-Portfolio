@@ -50,6 +50,10 @@ const MovingImage = ({title, image, link}) => {
                 className="z-10 w-96 h-auto hidden absolute rounded-lg"
                 initial={{opacity:0}}
                 whileInView={{opacity:1, transition:{duration:0.2}}}
+                priority
+                sizes='(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vh,
+                50vw'
             />    
         </Link>  
     )
@@ -81,6 +85,10 @@ const FeturedArticles = ({image, title, time, summary, link}) => {
                     className="w-full h-auto"
                     whileHover={{scale:1.05}}
                     transition={{duration:0.2}}
+                    priority
+                    sizes='(max-width: 768px) 100vw,
+                    (max-width: 1200px) 50vh,
+                    50vw'
                 />
             </Link>
             
