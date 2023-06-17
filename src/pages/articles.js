@@ -61,6 +61,7 @@ const FeturedArticles = ({image, title, time, summary, link}) => {
             className='
                 col-span-1 w-full p-4 bg-light rounded-2xl
                 border border-solid border-dark relative
+                dark:bg-dark dark:border-light
             '
         >
             <div 
@@ -86,7 +87,7 @@ const FeturedArticles = ({image, title, time, summary, link}) => {
             <p className='text-sm mb-2'>
                 {summary}
             </p>
-            <span className='text-primary font-semibold'>
+            <span className='text-primary dark:text-primaryDark font-semibold'>
                 {time}
             </span>
         </li>
@@ -104,6 +105,7 @@ const Article = ({ image, title, date, link }) => {
                 relative w-full p-4 py-6 my-4 justify-between first:mt-0
                 rounded-xl flex items-center bg-light text-dark
                 border border-solid border-dark border-r-4 border-b-4
+                dark:border-light dark:bg-dark dark:text-light
             '
         >
             <MovingImage 
@@ -111,7 +113,7 @@ const Article = ({ image, title, date, link }) => {
                 image={image}
                 link={link}
             />
-            <span className='text-primary font-semibold pl-4'>
+            <span className='text-primary dark:text-primaryDark font-semibold pl-4'>
                 {date}
             </span>
         </motion.li>
@@ -127,7 +129,12 @@ const articles = () => {
             </title>
             <meta name="description" content="any description" />
         </Head>
-        <main className='w-full mb-16 flex flex-col items-ecnter justify-center overfow-hidden'>
+        <main 
+            className='
+                w-full mb-16 flex flex-col items-ecnter 
+                justify-center overfow-hidden dark:text-light
+            '
+        >
             <Layout className='pt-16'>
                 <AnimatedText 
                     text="Words can change the world!"

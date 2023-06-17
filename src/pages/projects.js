@@ -19,13 +19,15 @@ const FeaturedProject = ({ type, title, summary, image, link, github }) => {
                 w-full flex items-center bg-light
                 justify-between rounded-3xl shadow-2xl
                 border border-solid border-dark p-12
-                relative rounded-br-2xl
+                relative rounded-br-2xl dark:bg-dark
+                dark:border-light
             '
         >
             <div 
                 className='
                     absolute top-0 -right-3 -z-10 rounded-br-3xl
                     w-[101%] h-[103%] rounded-[2.5rem] bg-dark
+                    dark:bg-light
                 '
             />
             <Link 
@@ -42,7 +44,7 @@ const FeaturedProject = ({ type, title, summary, image, link, github }) => {
                 />
             </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-6'>
-                <span className='text-primary font-medium text-xl'>
+                <span className='text-primary font-medium text-xl dark:text-primaryDark'>
                     {type}
                 </span>
             <Link 
@@ -50,11 +52,11 @@ const FeaturedProject = ({ type, title, summary, image, link, github }) => {
                 target="_blank"
                 className='hover:underline underline-offset-2'
             >
-                <h2 className='my-2 w-full text-left text-4xl font-bold'>
+                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light'>
                     {title}
                 </h2>
             </Link>
-            <p className='my-2 font-medium text-dark'>
+            <p className='my-2 font-medium text-dark dark:text-light'>
                 {summary}
             </p>
             <div className='mt-2 flex items-center'>
@@ -68,7 +70,10 @@ const FeaturedProject = ({ type, title, summary, image, link, github }) => {
                 <Link 
                     href={link}
                     target="_blank"
-                    className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold'
+                    className='
+                        ml-4 rounded-lg bg-dark text-light dark:text-dark
+                        p-2 px-6 text-lg font-semibold dark:bg-light 
+                    '
                 >
                     Visit Project
                 </Link>
@@ -84,13 +89,14 @@ const Project = ({ title, type, image, link, github}) => {
             className='
                 w-full flex items-cennter border border-dark p-6
                 justify-center rounded-2xl border-solid bg-light
-                relative flex-col
+                relative flex-col dark:bg-dark dark:border-light
             '   
         >
             <div 
                 className='
                     absolute top-0 -right-3 -z-10 rounded-br-3xl
                     w-[101%] h-[103%] rounded-[2rem] bg-dark
+                    dark:bg-light
                 '
             />
             <Link 
@@ -107,7 +113,7 @@ const Project = ({ title, type, image, link, github}) => {
                 />
             </Link>
             <div className='w-full flex flex-col items-start justify-between mt-4'>
-                <span className='text-primary font-medium text-xl'>
+                <span className='text-primary dark:text-primaryDark font-medium text-xl'>
                     {type}
                 </span>
             <Link 
@@ -149,7 +155,7 @@ const projects = () => {
             </title>
             <meta name='description' content='any description'/>
         </Head>
-        <main className='w-full mb-16 flex flex-col items-center justify-center'>
+        <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
                 <AnimatedText 
                     text="Imagination Trumps Knowledge!" 
