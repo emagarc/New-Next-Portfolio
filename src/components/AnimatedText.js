@@ -34,6 +34,7 @@ const AnimatedText = ({text, className=""}) => {
         className={`
             w-full mx-auto py-2 flex items-center dark:text-light
             justify-center text-center overflow-hidden
+            sm:py-0
             `}
     >
         <motion.h1 
