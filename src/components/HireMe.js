@@ -9,7 +9,7 @@ const HireMe = () => {
             fixed left-4 bottom-4 overflow-hidden
             flex items-center justify-center
             md:right-8 md:left-auto md:top-0 md:bottom-auto
-            md:absolute
+            md:absolute sm:right-0
         '
     >
         <div 
