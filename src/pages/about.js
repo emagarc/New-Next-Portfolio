@@ -17,7 +17,7 @@ const AnimatedNumbers = ({value}) => {
     const ref = useRef(null);
 
     const motionValue = useMotionValue(0);
-    const springValue = useSpring(motionValue, { duration: 3000});
+    const springValue = useSpring(motionValue, { duration: 4000});
     const isInView = useInView(ref, {once: true});
 
     useEffect(() => {
@@ -73,18 +73,20 @@ const about = () => {
                             Biography
                         </h2>
                         <p className='font-medium'>
-                            Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                            and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-                            new and innovative ways to bring my clients&apos; visions to life. 
+                            Greetings! I&apos;m Emanuel, a passionate Fullstack web developer with diverse experience.<br/>
+                            With a background in Business Administration,<br/> I transitioned into programming after encountering 
+                            inspiring work experiences.<br/> At 29, I completed an intensive Fullstack web development course.
                         </p>
                         <p className='font-medium my-4'>
-                            I believe that design is about more than just making things look pretty – it&apos;s about solving problems and 
-                            creating intuitive, enjoyable experiences for users. 
+                            Based in Cordoba, Argentina, I&apos;m fluent in Spanish and possess advanced proficiency 
+                            in English. I thrive on learning new technologies, conquering challenges, and collaborating 
+                            on innovative solutions.
                         </p>
                         <p className='font-medium'>
-                            Whether I&apos;m working on a website, mobile app, or 
-                            other digital product, I bring my commitment to design excellence and user-centered thinking to 
-                            every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                            Please explore my web portfolio to see my top-notch projects. 
+                            I hope you find them engaging. I&apos;m excited about potential collaborations 
+                            and welcome any inquiries or technology-oriented conversations. 
+                            Thank you for your attention!
                         </p>
                     </div>
                     <div 
@@ -130,7 +132,7 @@ const about = () => {
                                     md:text-6xl sm:text-5xl xs:text-4xl
                                 '
                             >
-                                <AnimatedNumbers value={50}/>
+                                <AnimatedNumbers value={7}/>
                             </span>
                             <h2 
                                 className='
@@ -139,7 +141,7 @@ const about = () => {
                                     xl:text-center md:text-lg sm:text-base xs:text-sm
                                 '
                             >
-                                satisfied clients
+                                months of bootcamp
                             </h2>
                         </div>
                         <div 
@@ -154,7 +156,7 @@ const about = () => {
                                     md:text-6xl sm:text-5xl xs:text-4xl
                                 '
                             >
-                                <AnimatedNumbers value={40} />
+                                <AnimatedNumbers value={5} />
                             </span>
                             <h2 
                                 className='
@@ -178,7 +180,7 @@ const about = () => {
                                     md:text-6xl sm:text-5xl xs:text-4xl
                                 '
                             >
-                                <AnimatedNumbers value={4} />
+                                <AnimatedNumbers value={2} />
                             </span>
                             <h2 
                                 className='

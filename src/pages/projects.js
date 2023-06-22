@@ -5,7 +5,11 @@ import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import Image from 'next/image';
 import { GithubIcon } from '@/components/Icons';
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import bookingapp from "../../public/images/projects/bookingapp.png";
+import henrycinema from "../../public/images/projects/henrycinema.png";
+import blabla from "../../public/images/projects/blabla.png";
+import tiktik from "../../public/images/projects/tiktik.png";
+
 
 import { motion } from "framer-motion";
 import TransitionEffect from '@/components/TransitionEffect';
@@ -214,67 +218,45 @@ const projects = () => {
                     >
                     <div className='col-span-12'>
                         <FeaturedProject
-                            title="Crypto Screener Application"
-                            image={project1} 
-                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                            title="Booking Application"
+                            image={bookingapp} 
+                            summary="A feature-rich tourism application similar to Airbnb using Typescript, Next, React, Tailwind CSS, Prisma, and MongoDB.
+                            It showcases details about destinations, enables uploading listings, viewing maps, favoriting, and making reservations."
                             link="/"
-                            github="/"
+                            github="https://github.com/emagarc/Booking_App"
                             type="Featured Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project
-                            title="Crypto Screener Application"
-                            image={project1} 
-                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                            link="/"
-                            github="/"
+                            title="Henry Cinema Website"
+                            image={henrycinema} 
+                            summary="A feature-rich cinema website using JavaScript, React, Redux, Sass, Sequelize, PostgreSQL, Express, and Node.
+                            The project was developed using the SCRUM methodology with a team of 7 colleagues."
+                            link="https://github.com/JuanCruzL/Henry-Cinema---FP"
+                            github="https://github.com/JuanCruzL/Henry-Cinema---FP"
                             type="Featured Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project
-                            title="Crypto Screener Application"
-                            image={project1} 
-                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                            link="/"
-                            github="/"
+                            title="BlaBla Messenger Application"
+                            image={blabla} 
+                            summary="A feature-rich messaging application similar to Messenger using Typescript, Next, React, Tailwind CSS, Prisma, Pusher and MongoDB.
+                            You can authenticate with Google or Github, start individual conversations, or create group conversations as well."
+                            link="https://bla-bla-seven.vercel.app/"
+                            github="https://github.com/emagarc/BlaBla"
                             type="Featured Project"
                         />
                     </div>
                     <div className='col-span-12'>
                         <FeaturedProject
-                            title="Crypto Screener Application"
-                            image={project1} 
-                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                            link="/"
-                            github="/"
-                            type="Featured Project"
-                        />
-                    </div>
-                    <div className='col-span-6 sm:col-span-12'>
-                        <Project
-                            title="Crypto Screener Application"
-                            image={project1} 
-                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                            link="/"
-                            github="/"
-                            type="Featured Project"
-                        />
-                    </div>
-                    <div className='col-span-6 sm:col-span-12'>
-                        <Project
-                            title="Crypto Screener Application"
-                            image={project1} 
-                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                            link="/"
-                            github="/"
+                            title="TikTik Application"
+                            image={tiktik} 
+                            summary="A feature-rich TikTok clone application using Typescript, Next, React, Tailwind CSS, Sanity, and Node.
+                            You can authenticate with Google or Github, watch videos, upload videos, browse by category, comment, like and more."
+                            link="https://tiktik-clone-two-fawn.vercel.app/"
+                            github="https://github.com/emagarc/TikTik"
                             type="Featured Project"
                         />
                     </div>

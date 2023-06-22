@@ -103,7 +103,7 @@ const Navbar = () => {
           <CustomLink href="/" title="Home" className="mr-4"/>
           <CustomLink href="/about" title="About" className="mx-4"/>
           <CustomLink href="/projects" title="Projects" className="mx-4"/>
-          <CustomLink href="/articles" title="Articles" className="ml-4"/>
+          {/* <CustomLink href="/articles" title="Articles" className="ml-4"/> */}
         </nav>
         <div className="absolute left-[50%] top-2 translate-x-[-50%]">
           <Logo />
@@ -155,7 +155,7 @@ const Navbar = () => {
             <CustomMobileLink href="/" title="Home" className="" toggle={handleClick}/>
             <CustomMobileLink href="/about" title="About" className="" toggle={handleClick}/>
             <CustomMobileLink href="/projects" title="Projects" className="" toggle={handleClick}/>
-            <CustomMobileLink href="/articles" title="Articles" className="" toggle={handleClick}/>
+            {/* <CustomMobileLink href="/articles" title="Articles" className="" toggle={handleClick}/> */}
           </nav>
           <div className="absolute left-[50%] top-2 translate-x-[-50%]">
             <Logo />
