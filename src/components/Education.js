@@ -70,31 +70,20 @@ const Education = () => {
             />
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
-                    type="Bachelor Of Science In Computer Science"
-                    time="2016-2020"
-                    place="Massachusetts Institute Of Technology (MIT)"
+                    type="Full Stack Web Developer (Bootcamp)"
+                    time="2022"
+                    place="Soy Henry"
                     info="
-                        Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence.
+                        seven month bootcamp included proficient in JavaScript (JS) and TypeScript (TS), 
+                        experience with React.js and Redux, fmiliarity with Express.js and Node.js, knowledge of Sequelize for database management, 
+                        and proficiency in CSS for front-end styling.
                     "               
                 />
                 <Details 
-                    type="Bachelor Of Science In Computer Science"
-                    time="2016-2020"
-                    place="Massachusetts Institute Of Technology (MIT)"
-                    info="
-                        Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence.
-                    "               
-                />
-                <Details 
-                    type="Bachelor Of Science In Computer Science"
-                    time="2016-2020"
-                    place="Massachusetts Institute Of Technology (MIT)"
-                    info="
-                        Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence.
-                    "               
+                    type="Bachelor's degree in Business Administration"
+                    time="2012-2018"
+                    place="Universidad Empresarial Siglo 21 (UES21)"
+                    info="Financial Management, Marketing Strategy, Organizational Behavior , Operations Management, Strategic Planning"               
                 />
             </ul>
             </div>

@@ -82,54 +82,29 @@ const Experience = () => {
                 '
             >
                 <Details 
-                    position="Software Engineer"
-                    company="Google"
-                    companyLink="www.google.com"
-                    time="2022-Present"
-                    address="Mountain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."                
+                    position="Administration Assistant"
+                    company="Suits Admin Management"
+                    companyLink="https://suitsadmin.com.au/"
+                    time="2021"
+                    address="Sydney, AU"
+                    work="Provided key administrative support to an Australian firm specializing in providing administrative services
+                    to various companies, including but not limited to security.
+                    Responsible for invoicing, POS and cash handling, updating employee files, freight tracking and general
+                    correspondence. Maintained accurate records of inventory."                
                 />
                 <Details 
-                    position="Software Engineer"
-                    company="Google"
-                    companyLink="www.google.com"
-                    time="2022-Present"
-                    address="Mountain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."                
-                />
-                <Details 
-                    position="Software Engineer"
-                    company="Google"
-                    companyLink="www.google.com"
-                    time="2022-Present"
-                    address="Mountain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."                
-                />
-                <Details 
-                    position="Software Engineer"
-                    company="Google"
-                    companyLink="www.google.com"
-                    time="2022-Present"
-                    address="Mountain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."                
-                />
-                <Details 
-                    position="Software Engineer"
-                    company="Google"
-                    companyLink="www.google.com"
-                    time="2022-Present"
-                    address="Mountain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."                
+                    position="Budget Assistant"
+                    company="Helacor SA"
+                    companyLink="https://argentina.gridohelado.com/"
+                    time="2019"
+                    address="Cordoba, AR"
+                    work="As Budgeting Assistant, took ownership in setting up and implementing new budget management
+                    procedures.
+                    Liaised with cross-functional team leaders to identify and address budget discrepancies across the
+                    business.
+                    Prepared and presented expense reports to Senior Accountants.
+                    Gained essential on-the-job training and multitasking experience, including database entry and expense
+                    analysis."                
                 />
             </ul>
             </div>

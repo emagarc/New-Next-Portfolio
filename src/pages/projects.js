@@ -222,7 +222,7 @@ const projects = () => {
                             image={bookingapp} 
                             summary="A feature-rich tourism application similar to Airbnb using Typescript, Next, React, Tailwind CSS, Prisma, and MongoDB.
                             It showcases details about destinations, enables uploading listings, viewing maps, favoriting, and making reservations."
-                            link="/"
+                            link="https://booking-app-git-nueva-rama-emagarc.vercel.app/"
                             github="https://github.com/emagarc/Booking_App"
                             type="Featured Project"
                         />
