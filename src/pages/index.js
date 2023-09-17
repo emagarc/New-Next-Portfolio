@@ -58,7 +58,7 @@ export default function Home() {
                     rounded-lg text-lg font-semibold hover:text-dark dark:text-dark
                     border-2 border-solid border-transparent hover:border-dark
                     hover:dark:bg-dark hover:dark:text-light hover:dark:border-light
-                    md:p-2 md:px-4 md:text-base
+                    sm:p-2 sm:px-4 sm:text-base  // Clases específicas para pantallas pequeñas
                   "
                   download={true}
                 >
