@@ -50,7 +50,7 @@ export default function Home() {
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link 
-                  href="/CV_EMANUEL_GARCIA-.pdf"
+                  href="/Emanuel_Garcia_CV-.pdf"
                   target={"_blank"}
                   className="
                     flex items-center bg-dark 
